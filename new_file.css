@@ -1,0 +1,63 @@
+/* 全局样式 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* 整体表格样式 */
+.resume-table {
+  border: none;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(170, 170, 255, 0.1);
+  border-radius: 5px;
+}
+
+/* 表格单元格样式 */
+.resume-table td {
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* 小标题添加图标的样式 */
+.icon-td {
+  font-weight: bold;
+  color: #757575;
+}
+
+.icon-td i {
+  margin-right: 10px;
+  color: #000a15; /* 图标颜色 */
+}
+
+/* 标题样式 */
+caption {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* 自我评价段落样式 */
+.resume-table p {
+  margin: 0;
+  line-height: 1.7;
+  color: #666;
+}
+
+/* 照片样式 */
+.resume-table img {
+  display: block;
+  margin: 0 auto;
+}
